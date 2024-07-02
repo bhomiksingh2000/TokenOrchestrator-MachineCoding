@@ -32,7 +32,6 @@ public class TokenService {
         this.repository = KeyRepository;
     }
 
-
     public Token createToken(){
         String id = UUID.randomUUID().toString();
         Token token = new Token(System.currentTimeMillis(), 0, id, false, System.currentTimeMillis());
