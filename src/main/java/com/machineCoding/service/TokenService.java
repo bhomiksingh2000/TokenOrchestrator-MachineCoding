@@ -39,7 +39,6 @@ public class TokenService {
         return repository.save(token);
     }
 
-
     public Token getToken() {
         for(Token token : repository.findAll()){
             if(!token.isBlocked() && System.currentTimeMillis() - token.getLastKeepAlive() < 5 * TokenEnum.MINUTE_IN_MILLISECONDS){
