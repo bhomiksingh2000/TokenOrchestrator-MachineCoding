@@ -51,7 +51,7 @@ This project follows SOLID principles and is designed using object-oriented prog
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/yourusername/token-orchestrator.git
+   https://github.com/bhomiksingh2000/TokenOrchestrator-MachineCoding.git
    cd token-orchestrator
    ```
 
